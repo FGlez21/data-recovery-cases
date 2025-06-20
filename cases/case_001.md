@@ -54,4 +54,4 @@ Due to the extent of damage and platter contact, the likelihood of successful re
 
 ---
 
-[⬅ Back to Case Index](../README.md)
+[⬅ Back to Case Index](../README.md) • [📁 View Evidence Folder (Case 001)](../evidences/case_001/)
