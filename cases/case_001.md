@@ -26,7 +26,7 @@
 
 ## 📸 Evidence
 
-![Head Stack Damage](../evidences/case_001_headstack.jpg)
+![Head Stack Damage](../evidences/case_001/case_001_headstack.jpg)
 
 *Close-up photo of the internal actuator assembly showing bent and misaligned read/write heads.*
 
