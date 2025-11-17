@@ -53,4 +53,4 @@ The process required low-level access through vendor tools and precise editing o
 - This case demonstrates successful firmware-level intervention on a WD 2.5” SATA drive.
 - Tools used: WDMarvel (or similar), TTL adapter, Hex Editor, PC-3000 (for validation).
 
-[⬅ Back to Case Index](../README.md) • [📁 View Evidence Folder](../evidences/case_002/)
+[⬅ Back to Case Index](../README.md) 
