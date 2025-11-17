@@ -20,3 +20,5 @@ Each case is documented with:
 Cases are organized in individual markdown files within the `cases/` directory. Supporting photos are stored in `evidences/` and referenced accordingly.
 
 This archive serves both as a learning tool and a portfolio of hands-on work in the field of data recovery and digital forensics.
+
+[⬅ Back to Projects](https://github.com/FGlez21/FGlez21#-featured-projects)
