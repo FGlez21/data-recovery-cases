@@ -26,7 +26,10 @@
 
 ## 🎥 Evidence
 
-- [Watch video of ROM analysis and patch process](../evidences/case_002/case_002_rom_analysis.mp4)
+
+*Reading ROM and SYS Modules Using Hex Analysis*
+
+![Watch the process](../evidences/case_002/case_002_rom_analysis.gif)
 
 ---
 
