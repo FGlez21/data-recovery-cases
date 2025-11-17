@@ -26,11 +26,18 @@
 
 ## 📸 Evidence
 
-![Head Stack Damage](../evidences/case_001/case_001_headstack.jpg)
+
 *Close-up photo of the internal actuator assembly showing bent and misaligned read/write heads.*
 
+![Head Stack Damage](../evidences/case_001/case_001_headstack.jpg)
+
+
+*Top view*
+
 ![Top View](../evidences/case_001/case_001_top.jpg)
-*Top View *
+
+
+
 ---
 
 ## 🧪 Analysis
@@ -55,4 +62,4 @@ Due to the extent of damage and platter contact, the likelihood of successful re
 
 ---
 
-[⬅ Back to Case Index](../README.md) • [📁 View Evidence Folder (Case 001)](../evidences/case_001/)
+[⬅ Back to Case Index](../README.md) 
