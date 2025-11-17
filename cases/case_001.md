@@ -30,6 +30,9 @@
 
 *Close-up photo of the internal actuator assembly showing bent and misaligned read/write heads.*
 
+[Front View](../evidences/case_001/case_001_front.jpg)
+[Top View](../evidences/case_001/case_001_top.jpg)
+
 ---
 
 ## 🧪 Analysis
