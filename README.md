@@ -8,6 +8,7 @@ This repository contains a personal collection of real-world data recovery cases
 |------|----------------------|----------------------|---------|
 | #001 | Head stack damage    | ❌ Unrecoverable    | [View report](cases/case_001.md) |
 | #002 | ROM Analysis and Firmware Patch Attempt    | ✅ Recoverable    | [View report](cases/case_002.md) |
+| #003 | Severe Platter Contamination   | ❌ Unrecoverable    | [View report](cases/case_003.md) |
 
 ## 🧠 About This Project
 
