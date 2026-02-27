@@ -1,56 +1,122 @@
-# 🧾 Case #002 - ROM Analysis and Firmware Patch Attempt
-
-**Drive Model:** Western Digital WD5000LUCT-63C26Y0  
-**Capacity:** 500GB  
-**Interface:** SATA  
-**Date Diagnosed:** 13/09/2023
+# Case 002 – ROM Extraction & Firmware Integrity Analysis
 
 ---
 
-## 🛠️ Symptoms
+## 1. Abstract
 
-- Drive spinning but not recognized by BIOS or data recovery software.
-- No unusual clicking, but failed to initialize firmware properly.
+500GB WD 2.5” SATA HDD presented with spin-up behavior but failed to initialize at host level.  
+Initial diagnostics indicated firmware-level initialization failure.  
 
----
-
-## 🔬 Diagnostic Steps
-
-1. Standard read attempts via recovery tools failed.
-2. Firmware-level corruption was suspected.
-3. ROM dump was performed using a TTL adapter and WD-specific utility.
-4. SYS modules were manually edited using a hex editor.
-5. Firmware lock bypassed, allowing full drive initialization.
+A controlled ROM extraction and structured firmware integrity analysis was performed.  
+Post-validation, corrected firmware parameters allowed full drive initialization and successful logical data access.
 
 ---
 
-## 🎥 Evidence
+## 2. Device Information
 
-
-*Reading ROM and SYS Modules Using Hex Analysis*
-
-![Watch the process](../evidences/case_002/case_002_rom_analysis.gif)
-
----
-
-## 🧪 Analysis
-
-The firmware on this WD drive was found to be corrupted in specific SYS modules that control initialization routines. After dumping the ROM, certain firmware zones were patched and re-uploaded, successfully bypassing the firmware lock.
-
-The process required low-level access through vendor tools and precise editing of checksum-protected firmware segments.
+- **Model:** Western Digital WD5000LUCT-63C26Y0  
+- **Capacity:** 500GB  
+- **Interface:** SATA  
+- **Form Factor:** 2.5”  
+- **Case Date:** 13/09/2023  
 
 ---
 
-## ✅ Outcome
+## 3. Reported Symptoms
+
+- Drive spins normally.
+- No abnormal mechanical noise.
+- Not detected by BIOS.
+- Fails to complete firmware initialization sequence.
+- No stable Identify response.
+
+---
+
+## 4. Initial Diagnostics
+
+### 4.1 Mechanical Evaluation
+- No audible head recalibration anomalies.
+- No signs of mechanical instability.
+
+### 4.2 Logical / Firmware Indicators
+- Standard read attempts unsuccessful.
+- Behavior consistent with firmware integrity failure.
+- Corrupted initialization routine suspected.
+
+---
+
+## 5. ROM Extraction & Analysis
+
+### 5.1 Procedure Overview
+
+- External ROM chip identified on PCB.
+- Controlled removal performed.
+- ROM content extracted using specialized hardware interface.
+- Raw binary dump acquired.
+- Firmware structures analyzed at hex level.
+
+> Exact extraction hardware and procedural specifics intentionally omitted.
+
+---
+
+### 5.2 Firmware Structure Review
+
+Binary analysis revealed:
+
+- Inconsistencies within system initialization modules.
+- Abnormal data patterns within firmware parameter regions.
+- Corrupted configuration blocks impacting startup sequence.
+
+Hex-level inspection performed to validate structural anomalies.
+
+![ROM Analysis Evidence](../evidences/case_002/case_002_rom_analysis.gif)
+
+---
+
+## 6. Firmware Integrity Correction
+
+Structured firmware parameter correction was performed based on:
+
+- Known-good firmware structure comparison.
+- Checksum validation.
+- Module integrity review.
+
+Post-correction:
+
+- Firmware lock condition resolved.
+- Drive successfully completed initialization sequence.
+- Full logical access restored.
+
+---
+
+## 7. Engineering Assessment
+
+### Failure Mode
+Firmware-level corruption affecting system modules responsible for drive initialization.
+
+### Risk Considerations
+- Improper firmware modification may permanently brick device.
+- Checksum-protected structures require controlled validation.
+- Recovery feasibility dependent on ROM integrity and adaptive data preservation.
+
+---
+
+## 8. Outcome
 
 **Status:** Fully Recovered  
-**Reason:** Firmware corruption successfully bypassed by modifying ROM and SYS files.
+**Recovery Class:** Firmware-Level Intervention  
+**Mechanical Condition:** Stable  
+**Data Integrity:** Preserved  
 
 ---
 
-## 🧠 Notes
+## 9. Lessons & Technical Notes
 
-- This case demonstrates successful firmware-level intervention on a WD 2.5” SATA drive.
-- Tools used: WDMarvel (or similar), TTL adapter, Hex Editor, PC-3000 (for validation).
+- Firmware corruption can mimic mechanical failure symptoms.
+- ROM extraction enables direct integrity validation.
+- Structured firmware analysis must preserve adaptive data integrity.
+- Controlled low-level access is critical in firmware-related recoveries.
 
-[⬅ Back to Case Index](../README.md) 
+---
+
+[⬅ Back to Case Index](../README.md)
