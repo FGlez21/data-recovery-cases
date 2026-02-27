@@ -21,7 +21,7 @@ Subsequent structured cloning and filesystem reconstruction enabled full data ex
 - **Drive Class:** Legacy Magnetic HDD  
 - **Previous Attempt:** Third-party unsuccessful recovery
 
-![Hard Drive](../evidences/case_004/case_004_hard_drive.jpg)
+![Hard Drive](../evidences/case_004/case_004_hard_drive.JPG)
 
 ---
 
