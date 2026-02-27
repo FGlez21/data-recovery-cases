@@ -62,7 +62,7 @@ Following mechanical stabilization:
 - Utility successfully loaded via PC-3000 environment.
 - Stable identify response achieved.
 
-![Utility](../evidences/case_004/case_004_utility.JPG)
+![Utility](../evidences/case_004/case_004_utility.jpg)
 
 ---
 
