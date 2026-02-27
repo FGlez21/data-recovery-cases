@@ -19,7 +19,9 @@ Subsequent structured cloning and filesystem reconstruction enabled full data ex
 - **Capacity:** 4GB  
 - **Interface:** IDE (PATA)  
 - **Drive Class:** Legacy Magnetic HDD  
-- **Previous Attempt:** Third-party unsuccessful recovery  
+- **Previous Attempt:** Third-party unsuccessful recovery
+
+![Hard Drive](../evidences/case_004/Hard_Drive.jpg)
 
 ---
 
