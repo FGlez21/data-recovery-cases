@@ -76,7 +76,7 @@ Initial attempt to explore filesystem structures failed due to:
 - Partition present but traversal unsuccessful.
 - Critical sector instability blocking directory enumeration.
 
-(Video evidence: failed structure access.)
+![Bad LBA](../evidences/case_004/case_004_Bad_LBA.gif)
 
 ---
 
