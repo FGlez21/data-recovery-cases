@@ -121,7 +121,7 @@ Post-acquisition analysis:
 - Files confirmed readable in OS environment.
 - Cross-validation between PC-3000 and Windows directory view performed.
 
-(Video evidence: final extracted data.)
+![Disk Analysis](../evidences/case_004/case_004_extracted_data.jpg)
 
 ---
 
