@@ -80,16 +80,16 @@ Initial attempt to explore filesystem structures failed due to:
 
 ---
 
-## 7. Controlled Cloning Strategy
+## 7. Controlled Imaging Strategy
 
 Given localized sector damage:
 
-- Selective sector cloning configured.
+- Selective sector imaging configured.
 - Critical filesystem LBAs prioritized.
 - Read parameters adjusted to minimize stress.
 - Controlled acquisition initiated.
 
-(Video evidence: sector selection and cloning parameters.)
+![Copy Data](../evidences/case_004/case_004_Copy_data.gif)
 
 ---
 
