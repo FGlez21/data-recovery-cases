@@ -107,7 +107,7 @@ Post-acquisition analysis:
 - Directory tree successfully rebuilt.
 - Logical traversal and file enumeration restored.
 
-![Disk Analysis](../evidences/case_004/case_004_Disk_analysis.jpg)
+![Disk Analysis](../evidences/case_004/case_004_Disk_analysis.png)
 
 ---
 
