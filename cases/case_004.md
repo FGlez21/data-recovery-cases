@@ -89,8 +89,6 @@ Given localized sector damage:
 - Read parameters adjusted to minimize stress.
 - Controlled acquisition initiated.
 
-![Copy Data](../evidences/case_004/case_004_Copy_data.gif)
-
 ---
 
 ## 8. Acquisition Process
@@ -100,7 +98,7 @@ Given localized sector damage:
 - Error handling strategy applied.
 - Damaged regions isolated.
 
-(Video evidence: cloning progress visualization.)
+![Copy Data](../evidences/case_004/case_004_Copy_data.gif)
 
 ---
 
@@ -113,7 +111,7 @@ Post-acquisition analysis:
 - Directory tree successfully reconstructed.
 - Logical traversal restored.
 
-(Video evidence: successful structure enumeration.)
+![Disk Analysis](../evidences/case_004/case_004_Disk_Analysis.gif)
 
 ---
 
